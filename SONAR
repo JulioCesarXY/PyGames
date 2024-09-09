@@ -10,7 +10,7 @@ def getNewBoard():
     for x in range(60): # The main list is a list of 60 lists.
         board.append([])
         for y in range(15): # Each list in the main list has 15 single-character strings.
-            # Use different characters for the ocean to make it more readable.
+            # Use diferentes caracteres para o oceano ficar mais fácil de ler.
             if random.randint(0, 1) == 0:
                 board[x].append('~')
             else:
