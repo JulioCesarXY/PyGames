@@ -1,6 +1,3 @@
-Claro! Para o arquivo README.md, o objetivo é fornecer uma descrição detalhada do jogo, instruções de instalação e execução, além de uma explicação das principais funcionalidades. Aqui está uma sugestão mais completa e detalhada para o seu README:
-
-
 ---
 
 Sonar Treasure Hunt
