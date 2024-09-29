@@ -87,22 +87,33 @@ def makeMove(board, chests, x, y):
             return 'Sonar did not detect anything.  All treasure chests out of range.'
 
 def enterPlayerMove(previousMoves):
-    # Let the player enter their move.  Return a two-item list of int xy coordinates.
+    # Let the player enter their move. Return a two-item list of int xy coordinates.
     print('Where do you want to drop the next sonar device? (0-59 0-14) (or type quit)')
     while True:
-        move = input()
+        move = input().strip()
         if move.lower() == 'quit':
             print('Thanks for playing!')
             sys.exit()
 
         move = move.split()
-        if len(move) == 2 and move[0].isdigit() and move[1].isdigit() and isOnBoard(int(move[0]), int(move[1])):
-            if [int(move[0]), int(move[1])] in previousMoves:
-                print('You already moved there.')
-                continue
-            return [int(move[0]), int(move[1])]
+        if len(move) != 2:
+            print("Invalid input. Please enter two numbers separated by a space.")
+            continue
 
-        print('Enter a number from 0 to 59, a space, then a number from 0 to 14.')
+        if not (move[0].isdigit() and move[1].isdigit()):
+            print("Invalid input. Both values must be numbers.")
+            continue
+
+        x, y = int(move[0]), int(move[1])
+        if not isOnBoard(x, y):
+            print("Invalid move. Coordinates out of bounds. Please enter a number between 0-59 for X and 0-14 for Y.")
+            continue
+
+        if [x, y] in previousMoves:
+            print("You already moved there.")
+            continue
+
+        return [x, y]
 
 def showInstructions():
     print('''Instructions:
