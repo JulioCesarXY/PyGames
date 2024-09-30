@@ -129,7 +129,7 @@ Maior que 9: O jogo exibe um "X", indicando que não há baús próximos.
 
 ---
 
-'''
+```ruby
 Estrutura do Código
 
 getNewBoard(): Gera o tabuleiro do oceano aleatoriamente.
@@ -144,7 +144,7 @@ enterPlayerMove(previousMoves): Lê e valida a entrada do jogador para garantir 
 
 showInstructions(): Mostra as instruções do jogo ao jogador.
 
-'''
+```
 
 
 ---
