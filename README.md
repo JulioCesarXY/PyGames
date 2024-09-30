@@ -4,7 +4,8 @@
 
 Descrição
 
-Sonar Treasure Hunt é um jogo de caça ao tesouro simples, desenvolvido em Python, no qual o jogador controla um navio de caça ao tesouro no oceano. A missão é localizar baús de tesouro submersos, utilizando dispositivos sonar para medir a distância entre o navio e os baús. O jogo apresenta um tabuleiro 60x15 que simula o oceano, onde os baús estão escondidos em posições aleatórias.
+Sonar Treasure Hunt é um jogo de caça ao tesouro simples, desenvolvido em Python, no qual o jogador controla um navio de caça ao tesouro no oceano.
+A missão é localizar baús de tesouro submersos, utilizando dispositivos sonar para medir a distância entre o navio e os baús. O jogo apresenta um tabuleiro 60x15 que simula o oceano, onde os baús estão escondidos em posições aleatórias.
 
 O jogador deve inserir coordenadas no formato (X, Y) para soltar um sonar e tentar encontrar os baús. O sonar, entretanto, só informa a distância até o baú mais próximo, sem indicar a direção. O jogador tem um número limitado de tentativas para encontrar todos os baús antes que os dispositivos sonar acabem.
 
