@@ -52,19 +52,20 @@ Clone o repositório do jogo para a sua máquina local usando o comando:
 
 ```bash
 git clone https://github.com/seu-usuario/sonar-treasure-hunt.git
-
+```
 Executando o Jogo
 
+```bash
 1. Navegue até a pasta do projeto:
 
 cd sonar-treasure-hunt
-
-
+```
+```bash
 2. Execute o jogo:
 
 python sonar_treasure_hunt.py
 
-
+```
 
 
 ---
