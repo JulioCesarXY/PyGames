@@ -51,18 +51,17 @@ You have 20 sonar device(s) left. 3 treasure chest(s) remaining. Where do you wa
 Clone o repositório do jogo para a sua máquina local usando o comando:
 
 ```bash
-git clone https://github.com/seu-usuario/sonar-treasure-hunt.git
+git clone https://github.com/JulioCesarXY/sonar-treasure-hunt.git
 ```
 Executando o Jogo
 
-```bash
 1. Navegue até a pasta do projeto:
-
+```bash
 cd sonar-treasure-hunt
 ```
-```bash
-2. Execute o jogo:
 
+2. Execute o jogo:
+```bash
 python sonar_treasure_hunt.py
 
 ```
