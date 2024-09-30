@@ -64,28 +64,38 @@ Pré-requisitos:
 
 Python 3.x: Certifique-se de ter o Python instalado em sua máquina. Você pode verificar se o Python está instalado executando o comando:
 
+---
+
 python --version
 
+---
 
 Clonando o Repositório:
 
 Clone o repositório do jogo para a sua máquina local usando o comando:
 
+---
+
 git clone https://github.com/seu-usuario/sonar-treasure-hunt.git
+
+---
 
 Executando o Jogo:
 
 1. Navegue até a pasta do projeto:
 
+---
+
 cd sonar-treasure-hunt
+
+---
 
 
 2. Execute o jogo:
 
+---
+
 python sonar_treasure_hunt.py
-
-
-
 
 ---
 
